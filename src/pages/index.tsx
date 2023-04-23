@@ -13,6 +13,7 @@ if (!process.env.NEXT_PUBLIC_OPEN_AI_API_KEY) {
 const configuration = new Configuration({
   apiKey: process.env.NEXT_PUBLIC_OPEN_AI_API_KEY,
 });
+
 const openai = new OpenAIApi(configuration);
 
 // Dummy conversation for testing
@@ -153,11 +154,17 @@ const UserInputBox: React.FC<{
     setIsLoading(true);
     const assistantResponseObj = await openai.createChatCompletion({
       model: "gpt-3.5-turbo",
-      messages: conversation,
+      messages: [...conversation, { role: "user", content: userInput }],
     });
 
     const assistantResponse =
       assistantResponseObj?.data?.choices[0]?.message?.content || "";
+    console.log(userInput, assistantResponse, [
+      ...conversation,
+      { role: "user", content: userInput },
+      { role: "assistant", content: assistantResponse },
+    ]);
+
     setConversation([
       ...conversation,
       { role: "user", content: userInput },
@@ -175,8 +182,7 @@ const UserInputBox: React.FC<{
         onChange={(e) => setUserInput(e.target.value)}
         value={userInput}
         disabled={isLoading}
-      >
-      </textarea>
+      ></textarea>
 
       <div className="m-3 flex h-10 w-10 items-center justify-center rounded-full bg-slate-500 p-6">
         {isLoading ? (
