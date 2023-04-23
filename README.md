@@ -1,18 +1,25 @@
+# Build Your Personal Chatbot!
+In this workshop, we'll learn how to build a personalized chatbot powered by AI. During the session, we’ll cover:
+- Building a conversational chatbot from scratch
+- Deploying a T3 web app live for easy accessibility
+
+This hands-on workshop is a fantastic opportunity to dive into the world of AI and chatbots while creating something truly special.
+
+![AI screenshot](./src/assets/PersonalChatBotScreenShot.png)
+
 # Create T3 App
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This uses the [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+## Getting Started with Your Personal AI Chatbot
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+We've made this project as simple as possible, so you can start with just the scaffolding we set up for you and add additional features later when necessary.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+If you're not familiar with the different technologies used in this project, please refer to their respective documentation.
 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
 - [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [OpenAI](https://platform.openai.com/docs/introduction)
 
 ## Learn More
 
@@ -21,8 +28,8 @@ To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the fo
 - [Documentation](https://create.t3.gg/)
 - [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+You can also visit the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
-## How do I deploy this?
+## Deploying Your Personal AI Chatbot
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify), and [Docker](https://create.t3.gg/en/deployment/docker) for more information on how to deploy your AI chatbot. You will need to include your personal `NEXT_PUBLIC_OPEN_AI_API_KEY` API key in the deployment.

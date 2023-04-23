@@ -1,13 +1,11 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import {
-  ChatCompletionRequestMessageRoleEnum,
   type ChatCompletionRequestMessage,
   Configuration,
   OpenAIApi,
 } from "openai";
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { type Dispatch, type SetStateAction, useEffect, useState } from "react";
 
 if (!process.env.NEXT_PUBLIC_OPEN_AI_API_KEY) {
   throw new Error("Missing API key");
