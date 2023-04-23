@@ -3,7 +3,8 @@ In this workshop, we'll learn how to build a personalized chatbot powered by AI.
 - Building a conversational chatbot from scratch
 - Deploying a T3 web app live for easy accessibility
 
-This hands-on workshop is a fantastic opportunity to dive into the world of AI and chatbots while creating something truly special.
+This hands-on workshop is a fantastic opportunity to dive into the world of AI and chatbots while creating something truly special. [Live Demo](https://chat-gpt-demo-chinat.vercel.app/)
+
 
 ![AI screenshot](./src/assets/PersonalChatBotScreenShot.png)
 
