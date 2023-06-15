@@ -23,7 +23,8 @@ If you're not familiar with the different technologies used in this project, ple
 - [OpenAI](https://platform.openai.com/docs/introduction)
 
 ## Learn More
-
+ 
+ 
 To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
 - [Documentation](https://create.t3.gg/)
