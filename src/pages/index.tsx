@@ -84,9 +84,9 @@ const Home: NextPage = () => {
     ChatCompletionRequestMessage[]
   >([initialQuestion]);
 
-  useEffect(() => {
-    console.log(userInput);
-  }, [userInput]);
+  // useEffect(() => {
+  //   console.log(userInput);
+  // }, [userInput]);
   return (
     <>
       <Head>
